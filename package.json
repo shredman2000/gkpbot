@@ -1,0 +1,21 @@
+{
+  "name": "gkpbot",
+  "version": "1.0.0",
+  "description": "Chatbot to give information about myself within my portfolio website.",
+  "main": "dist/index.js",
+  "scripts": {
+    "build": "tsc",
+    "start": "node dist/index.js",
+    "dev": "ts-node index.ts"
+  },
+  "dependencies": {
+    "@openai/agents": "^0.0.1",
+    "dotenv": "^16.0.0",
+    "openai": "^4.0.0"
+  },
+  "devDependencies": {
+    "@types/node": "^20.0.0",
+    "ts-node": "^10.9.0",
+    "typescript": "^5.0.0"
+  }
+}
